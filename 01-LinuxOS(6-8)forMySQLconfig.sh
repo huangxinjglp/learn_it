@@ -249,7 +249,7 @@ mount /dev/softvg/softlv /soft
 
 # 写入磁盘
 echo "/dev/mysqlvg/mysqllv       /mysql/app            ext4   defaults   0 0" >> /etc/fstab
-echo "/dev/mysqlvg/datalv         /mysql/data           ext4   defaults   0 0" >> /etc/fstab
-echo "/dev/mysqlvg/loglv           /mysql/log     	   ext4   defaults   0 0" >> /etc/fstab
-echo "/dev/backupvg/backuplv    /mysql/backup        ext4   defaults   0 0" >> /etc/fstab
-echo "/dev/softvg/softlv            /soft                        ext4   defaults   0 0" >> /etc/fstab
+echo "/dev/mysqlvg/datalv        /mysql/data           ext4   defaults   0 0" >> /etc/fstab
+echo "/dev/mysqlvg/loglv         /mysql/log            ext4   defaults   0 0" >> /etc/fstab
+echo "/dev/backupvg/backuplv     /mysql/backup         ext4   defaults   0 0" >> /etc/fstab
+echo "/dev/softvg/softlv         /soft                 ext4   defaults   0 0" >> /etc/fstab
